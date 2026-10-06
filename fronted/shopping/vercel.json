@@ -2,7 +2,7 @@
     "rewrites": [
         {
             "source": "/api/:path*",
-            "destination": "https://BACKEND-URL.onrender.com/api/:path*"
+            "destination": "https://shopesae-project-backedn.onrender.com"
         },
         {
             "source": "/(.*)",
