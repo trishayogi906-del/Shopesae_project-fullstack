@@ -1,6 +1,6 @@
 import { useNavigate } from "react-router-dom";
 import NavLinks from "./Navlinks.jsx";
-import ProfileMenu from "./profileMenu";
+import ProfileMenu from "./ProfileMenu.jsx";
 import { authLinks } from "../../data/navLinks";
 import useAuth from "../../hooks/useAuth";
 
