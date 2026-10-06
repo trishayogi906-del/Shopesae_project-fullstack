@@ -11,7 +11,7 @@ export default function Navbar() {
             <div className="mx-auto flex max-w-6xl flex-wrap items-center gap-x-6 gap-y-2 px-4 py-3">
                 <Logo />
                 <NavLinks links={mainLinks} />
-                <SearchBar className="order-last w-full md:order-none md:w-auto md:flex-1" />
+                <SearchBar className="order-last w-full md:order-0 md:w-auto md:flex-1" />
                 <div className="ml-auto flex items-center gap-2 md:ml-0">
                     <CartButton />
                     <AuthLinks />
