@@ -2,7 +2,7 @@
     "rewrites": [
         {
             "source": "/api/:path*",
-            "destination": "https://shopesae-project-backedn.onrender.com"
+            "destination": "https://shopesae-project-backedn.onrender.com/api/:path*"
         },
         {
             "source": "/(.*)",
